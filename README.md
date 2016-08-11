@@ -7,7 +7,7 @@ versa.
 
 ## Compilation
 
-You need a working C compiler and ''make'' program. Tested with GCC and clang
+You need a working C compiler and ``make`` program. Tested with GCC and clang
 with GNU make.
 
 ```
@@ -18,13 +18,13 @@ The resulting binary will be available in the same directory as the source code.
 
 ## Installation
 
-You don't need to install the binary. If you need to ''install'' it, just copy
-the binary to directory included in your ''PATH'', such as ''/usr/local/bin''.
+You don't need to install the binary. If you need to ``install`` it, just copy
+the binary to directory included in your ``PATH``, such as ``/usr/local/bin``.
 
 ### Example Installation
 
-To install the binary into ''/usr/local/bin'', simply type these
-commands with ''root'' privilege.
+To install the binary into ``/usr/local/bin``, simply type these
+commands with ``root`` privilege.
 
 ```
 install -m 755 hex2dec /usr/local/bin/hex2dec
